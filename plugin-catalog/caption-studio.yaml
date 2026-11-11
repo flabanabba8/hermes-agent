@@ -1,14 +1,15 @@
 name: caption-studio
 title: "Caption Studio"
 repo: https://github.com/flabanabba8/caption-studio
-sha: a783365f0a0d33d5cb3140e7fc6e79ccd7ed7634
+sha: 4edcc97ea3d4ea84e8b29bad3febeaecc65d9a30
 version: "0.4.6"
 description: "Create captions from recordings, review their words and timing, and repair existing subtitles using your chosen speech tools. Disclosure: Reads media and subtitle files you select, runs the speech recognizer you choose (local command, imported transcript, HTTP service or host tool) and writes new SRT files in its own plugin data folder; originals are never changed. Audio goes to a remote service only if you select an HTTP recognizer and confirm the upload; the optional key is stored by Hermes. No network calls by default."
 maintainer: flabanabba8
 tier: community
 category: voice
 requires_hermes: ">=0.22.0"
-docs_url: https://github.com/flabanabba8/caption-studio/blob/a783365f0a0d33d5cb3140e7fc6e79ccd7ed7634/README.md
+docs_url: https://github.com/flabanabba8/caption-studio/blob/4edcc97ea3d4ea84e8b29bad3febeaecc65d9a30/README.md
+image: https://raw.githubusercontent.com/flabanabba8/caption-studio/4edcc97ea3d4ea84e8b29bad3febeaecc65d9a30/assets/thumbnail.jpg
 platforms: [linux]
 capabilities:
   provides_tools:
