@@ -1,0 +1,23 @@
+name: game-localization-studio
+title: "Game Localization Studio"
+repo: https://github.com/flabanabba8/game-localization-studio
+sha: 06fc259f4517a438f808790e9eddbbcb35fcec7f
+version: "0.2.1"
+description: "Source-addressed RPG Maker message translation drafts with control-token and row-budget checks. Disclosure: Reads RPG Maker data files you select and keeps translation drafts in plugin storage. No network calls, credentials or model calls of its own. No game data is bundled."
+maintainer: flabanabba8
+tier: community
+category: tools
+requires_hermes: ">=0.22.0"
+docs_url: https://github.com/flabanabba8/game-localization-studio/blob/06fc259f4517a438f808790e9eddbbcb35fcec7f/README.md
+platforms: [linux]
+capabilities:
+  provides_tools:
+    - localize_inspect
+    - localize_get
+    - localize_translate
+    - localize_validate
+    - localize_export
+    - localize_list_drafts
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
