@@ -1,0 +1,38 @@
+name: podcast-studio
+title: "Podcast Studio"
+repo: https://github.com/flabanabba8/podcast-studio
+sha: a526ac6560629e034977a5ea4aa761cb06c0c62a
+version: "0.3.0"
+description: "Research and write podcasts from a topic, choose speech resources, assemble actual audio and review sources and timing. Disclosure: Research pages are fetched through an installed Camoufox browser you select. If you choose the Gemini voice route, each spoken line is sent to Google (Vertex) using your own Google Cloud login, with a spend guard. Mixing uses local FFmpeg. Stores projects privately in plugin storage; show notes, captions and a transcript can also be copied to a folder you name. No project id or credential is stored or shown. Nothing is uploaded or published."
+maintainer: flabanabba8
+tier: community
+category: voice
+requires_hermes: ">=0.22.0"
+docs_url: https://github.com/flabanabba8/podcast-studio/blob/a526ac6560629e034977a5ea4aa761cb06c0c62a/README.md
+platforms: [linux]
+capabilities:
+  provides_tools:
+    - podcast_start_topic
+    - podcast_research_fetch
+    - podcast_source_add
+    - podcast_source_read
+    - podcast_write_script
+    - podcast_material_add
+    - podcast_narrate
+    - podcast_assemble_project
+    - podcast_episode_files
+    - podcast_project_status
+    - podcast_load_episode
+    - podcast_lint_episode
+    - podcast_preflight
+    - podcast_check_script
+    - podcast_check_review
+    - podcast_pagecast_plan
+    - podcast_check_pagecast_cast
+    - podcast_show_notes
+    - podcast_caption_cues
+    - podcast_mix
+    - podcast_mix_timeline
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
