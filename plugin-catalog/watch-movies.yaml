@@ -1,0 +1,24 @@
+name: watch-movies
+title: "Watch Movies"
+repo: https://github.com/flabanabba8/watch-movies
+sha: 29dc0240d982b99a1988092844b49ab0c8f125bc
+version: "0.1.1"
+description: "Search movies and TV with Luffy, preserve master-playlist audio, and resume playback across source changes. Disclosure: Searches TMDB (api.themoviedb.org) with your own TMDB API key and resolves streams on demand from Cinejoy, VixSrc and LookMovie through a bridge you build yourself from the pinned Luffy source in native/; plays with local mpv. No compiled binaries are shipped. Stores only your watch position. Linux only. The sites serve third-party content whose licensing you must judge. This product uses the TMDB API but is not endorsed or certified by TMDB."
+maintainer: flabanabba8
+tier: community
+category: tools
+requires_hermes: ">=0.22.0"
+docs_url: https://github.com/flabanabba8/watch-movies/blob/29dc0240d982b99a1988092844b49ab0c8f125bc/README.md
+platforms: [linux]
+capabilities:
+  provides_tools:
+    - movies_search
+    - movies_details
+    - movies_play
+    - movies_status
+    - movies_control
+    - movies_history
+    - movies_resume
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
