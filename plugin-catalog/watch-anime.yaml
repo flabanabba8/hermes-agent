@@ -1,0 +1,24 @@
+name: watch-anime
+title: "Watch Anime"
+repo: https://github.com/flabanabba8/watch-anime
+sha: e385cb6dd5411ef8e0cfa8dc4c0413842d6c1d7a
+version: "0.1.0"
+description: "Find anime with ani-cli's pinned provider, choose the exact season, and resume mpv from observed playback progress. Disclosure: Contacts anime streaming sites through ani-cli provider code pinned in the repository to resolve streams on demand, and plays with local mpv. Stores only your watch position. Linux only. The sites serve content whose licensing you must judge."
+maintainer: flabanabba8
+tier: community
+category: tools
+requires_hermes: ">=0.22.0"
+docs_url: https://github.com/flabanabba8/watch-anime/blob/e385cb6dd5411ef8e0cfa8dc4c0413842d6c1d7a/README.md
+platforms: [linux]
+capabilities:
+  provides_tools:
+    - anime_search
+    - anime_episodes
+    - anime_play
+    - anime_status
+    - anime_control
+    - anime_history
+    - anime_resume
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
