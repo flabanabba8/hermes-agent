@@ -1,0 +1,25 @@
+name: modlab
+title: "ModLab"
+repo: https://github.com/flabanabba8/modlab
+sha: fc97479a6e1b4d44f0d2d2c881faa764b6ad5eaa
+version: "0.2.0"
+description: "An all-in-one game-modding workbench using Universal Modder and Reverse Engineer Anything, from recon and assets through builds, testing and showcases. Disclosure: Works on a copy of a game folder you own, applies mod archives with rollback and drives Universal Modder and Reverse Engineer Anything. No network calls of its own; no game files, SDKs or proprietary material are bundled."
+maintainer: flabanabba8
+tier: community
+category: tools
+requires_hermes: ">=0.22.0"
+docs_url: https://github.com/flabanabba8/modlab/blob/fc97479a6e1b4d44f0d2d2c881faa764b6ad5eaa/README.md
+platforms: [linux]
+capabilities:
+  provides_tools:
+    - modlab_resources
+    - modlab_toolkit
+    - modlab_rea_native
+    - modlab_create
+    - modlab_inspect
+    - modlab_apply
+    - modlab_rollback
+    - modlab_select_preserved
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []
